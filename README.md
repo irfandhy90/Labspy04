@@ -3,7 +3,6 @@
 ```sh
 Nama    : Mochammad Irfandhy
 Nim     : 312110126
-Kelas   : TI.21.C5
 Matkul  : Pemrograman
 ```
 
