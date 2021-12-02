@@ -17,11 +17,11 @@ Saya Mengerjakan Dengan *Syntax* Dibawah Ini
 ```sh
 # Akses List
 ## Menampilkan element ke-3
-Olahraga = ['Futsal', 'Sepak Bola', 'Lari', 'Renang', 'Kasti', 'Badminton']
+Olahraga = ['Futsal', 'Sepak Bola', 'Lari', 'Renang', 'Kasti']
 print()
 print("List :", Olahraga)
 print()
-print('Olahraga dalam element ke-3 adalah', Olahraga[3])
+print('Olahraga dalam element ke-3 adalah', Olahraga[2])
 print()
 
 ## Ambil nilai element ke-2 sampai ke-4
@@ -69,16 +69,16 @@ Saya Mengerjakan Dengan *Syntax* Dibawah Ini
 from typing import overload
 
 
-Olahraga = ['Futsal', 'Sepak Bola', 'Lari', 'Renang', 'Kasti', 'Badminton']
+Olahraga = ['Futsal', 'Sepak Bola', 'Lari', 'Renang', 'Kasti']
 print()
 print("List sebelum di ubah :", Olahraga)
 print()
-Olahraga[4] = 'Aerobik'
+Olahraga[3] = 'Aerobik'
 print("List sesudah di ubah :", Olahraga)
 print()
 
 ## ubah elemen ke 4 sampai dengan elemen terakhir
-Olahraga[4:] = ["Senam", "Karambol"]
+Olahraga[3:] = ["Senam", "Karambol"]
 print("Ubah element ke-4 hingga akhir :", Olahraga)
 print()
 ```
@@ -112,14 +112,14 @@ Saya Mengerjakan Dengan *Syntax* Dibawah Ini
 # Tambah element list
 ## Ambil 2 bagian dari list pertama (A) dan jadikan list ke 2 (B)
 a = [6, 7, 8, 9, 10]
-b = [1, 2, 3, 4, 5]
+b = []
 
-b.append(a[0:2])
+b.extend(a[0:2])
 print(b)
 
 ## tambah list B dengan nilai string
 print()
-b.append("5")
+b.extend("5")
 print(b)
 
 ## tambah list B dengan 3 nilai

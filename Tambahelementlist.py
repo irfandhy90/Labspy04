@@ -1,14 +1,14 @@
 # Tambah element list
 ## Ambil 2 bagian dari list pertama (A) dan jadikan list ke 2 (B)
 a = [6, 7, 8, 9, 10]
-b = [1, 2, 3, 4, 5]
+b = []
 
-b.append(a[0:2])
+b.extend(a[0:2])
 print(b)
 
 ## tambah list B dengan nilai string
 print()
-b.append("5")
+b.extend("5")
 print(b)
 
 ## tambah list B dengan 3 nilai

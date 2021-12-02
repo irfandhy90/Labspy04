@@ -1,10 +1,10 @@
 # Akses List
 ## Menampilkan element ke-3
-Olahraga = ['Futsal', 'Sepak Bola', 'Lari', 'Renang', 'Kasti', 'Badminton']
+Olahraga = ['Futsal', 'Sepak Bola', 'Lari', 'Renang', 'Kasti']
 print()
 print("List :", Olahraga)
 print()
-print('Olahraga dalam element ke-3 adalah', Olahraga[3])
+print('Olahraga dalam element ke-3 adalah', Olahraga[2])
 print()
 
 ## Ambil nilai element ke-2 sampai ke-4
